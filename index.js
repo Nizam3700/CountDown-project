@@ -1,4 +1,4 @@
-const endDate = "29 Nov 2023 11:59 AM"
+const endDate = "29 Nov 2024 11:59 AM"
 
 document.getElementById("end_date").innerText = endDate;
 const inputs = document.querySelectorAll("input")
@@ -22,6 +22,8 @@ function clock(){
     inputs[3].value = Math.floor(diff) % 60;
     
 }
+
+
 
 //initial call
 clock()
